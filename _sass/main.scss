@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Silkscreen:wght@700&display=swap');
+
+body {
+  background-color: #FF338A;
+  background-image: url('/assets/diagonal-noise.png');
+  text-shadow: 1px 1px 2px #000000;
+}
+
+.titleText {
+  font-family: 'Righteous';
+  font-size: 4em;
+  color: #F0FF33;
+
+}
+.subheaderText {
+  font-family: 'Righteous';
+  font-size: 2em;
+  color: #FFA833;
+}
+.bodyText {
+  font-family: 'Righteous';
+  font-size: 1.1em;
+  color: #FFA833;
+  padding-top: 2em;
+}
+
+
+#containerBody {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  width: 70%;
+  transform: translate(-50%, -50%)
+}
+
+#nav {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  padding: 5px;
+}
+#nav a {
+  font-size: 1em;
+}
+
+a:link, 
+a:visited {
+  color: #000000;
+  text-decoration: none;
+  font-family: Silkscreen;
+}
+a:hover {
+  color :#ffffff;
+  text-decoration: none;
+}
+a.disabled:link,
+a.disabled:visited,
+a.disabled:hover {
+  color: #000000;
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+}
+
+input,
+textarea,
+select,
+button {
+  width: 150px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+input, textarea {
+  background-color: #FFFFFF00;
+  color: #F0FF33;
+  width: 200px;
+  border-width: 0px;
+  padding: 5px;
+  margin: 5px;
+}
+
+textarea#textAreaMessage {
+  width: 100%;
+  height: auto;
+  font-family: 'Righteous';
+  font-size: 4em;
+  color: #F0FF33;
+  outline: none;
+  resize: none;
+  overflow: hidden;
+  text-shadow: 1px 1px 2px #000000;
+}
+
+textarea#textAreaMessage::placeholder {
+  color: #F0FF33;
+  opacity: 0.75;
+}
+
+.publishDateText {
+  color: #F0FF33;
+}
+
+.buttonDisabled {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+.hidden {
+  display: none;
+}

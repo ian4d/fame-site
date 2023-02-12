@@ -1,0 +1,14 @@
+{
+    "less.completion.triggerPropertyValueCompletion": false,
+    "editor.tabCompletion": "on",
+    "terminal.integrated.automationProfile.linux": {
+    
+    },
+    "terminal.integrated.automationProfile.windows": {
+    
+    },
+    "terminal.integrated.automationProfile.osx": {
+    
+    },
+    "terminal.integrated.defaultProfile.linux": ""
+}
